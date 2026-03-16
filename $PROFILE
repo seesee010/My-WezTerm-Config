@@ -99,6 +99,14 @@ function create {
   }
 }
 
+# custom cmd: head - from bash, outputs {args} long head of the file
+# if {arg} = null -> arg = 5
+function head {
+  param (
+    [int]${argc} = 5
+  )
+}
+
 # Color for PS C:\Users\SeeSee1> -- ORANGE --
 function prompt {
 
