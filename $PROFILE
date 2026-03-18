@@ -1,3 +1,5 @@
+cd Desktop
+
 # Module - color for ls command
 Import-Module Get-ChildItemColor -ErrorAction SilentlyContinue
 
